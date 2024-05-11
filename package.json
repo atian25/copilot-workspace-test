@@ -1,0 +1,33 @@
+{
+  "name": "vercel-function-project",
+  "version": "1.0.0",
+  "description": "A Vercel function project for Web + cloud function page",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "vercel build",
+    "start": "vercel start",
+    "lint": "eslint . --ext .ts,.tsx",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "typescript": "^4.0.0",
+    "eslint": "^7.0.0",
+    "husky": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^14.0.0",
+    "@typescript-eslint/eslint-plugin": "^4.0.0",
+    "@typescript-eslint/parser": "^4.0.0"
+  },
+  "eslintConfig": {
+    "extends": [
+      "eslint:recommended",
+      "plugin:@typescript-eslint/recommended"
+    ]
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "license": "MIT"
+}
