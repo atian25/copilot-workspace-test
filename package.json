@@ -1,12 +1,9 @@
 {
-  "name": "vercel-function-project",
+  "name": "copilot-workspace-test",
   "version": "1.0.0",
-  "description": "A Vercel function project for Web + cloud function page",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "vercel dev",
-    "build": "vercel build",
-    "start": "vercel start",
     "lint": "eslint . --ext .ts,.tsx",
     "prepare": "husky install"
   },
